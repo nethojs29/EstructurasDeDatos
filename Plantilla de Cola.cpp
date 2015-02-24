@@ -190,7 +190,7 @@ int main(){
         Elemento<tipo> *auxx = Ultimo->sig;
         Ultimo->sig = auxx->sig;
 
-        if(!Ultimo) Ultimo=NULL; <--- NO SÉ SI VA D:
+        if(!Ultimo) Ultimo=NULL; <--- NO SÃ‰ SI VA D:
 
         delete auxx;
         --elementos;
